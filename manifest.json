@@ -1,0 +1,11 @@
+{
+	"id": "simple-critic-markup",
+	"name": "Simple Critic Markup",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Simple Critic Markup plugin.",
+	"author": "igtm",
+	"authorUrl": "https://github.com/igtm",
+	"fundingUrl": "https://github.com/igtm",
+	"isDesktopOnly": false
+}

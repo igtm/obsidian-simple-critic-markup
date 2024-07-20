@@ -1,0 +1,23 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+.SIMPLE_CRITIC_MARKUP__add {
+	background-color: #49cc93; /* --spectrum-global-color-green-500 */
+	/* border: 1px solid #ccc; */
+	border-radius: 3px;
+	padding: 2px;
+	/* margin: 2px; */
+}
+.SIMPLE_CRITIC_MARKUP__delete {
+	background-color: #ff9b88; /* --spectrum-global-color-red-500 */
+	/* border: 1px solid #ccc; */
+	border-radius: 3px;
+	padding: 2px;
+	display: var(--deletion-display, inline-block);
+	/* margin: 2px; */
+}
