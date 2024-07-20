@@ -90,7 +90,6 @@ export default class SimpleCriticMarkup extends Plugin {
 			},
 		});
 		this.registerMarkdownPostProcessor((element, context) => {
-			console.log(element.innerHTML);
 			element.innerHTML = element.innerHTML.replace(
 				// NOTE: hacky way to replace the content
 				/\{(\<del>|\~\~)\s*?([^~]*)~&gt;([^<~]*)\s*?(<\/del>|\~\~)\}/g,
